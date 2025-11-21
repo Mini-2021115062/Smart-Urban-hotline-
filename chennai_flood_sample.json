@@ -1,0 +1,16 @@
+{
+  "regions": [
+    {
+      "area": "T Nagar",
+      "flood_index": 0.67
+    },
+    {
+      "area": "Velachery",
+      "flood_index": 0.89
+    },
+    {
+      "area": "Anna Nagar",
+      "flood_index": 0.34
+    }
+  ]
+}
