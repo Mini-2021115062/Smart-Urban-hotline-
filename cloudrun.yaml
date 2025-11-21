@@ -1,0 +1,16 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: urban-hotline
+spec:
+  template:
+    spec:
+      containers:
+        - image: gcr.io/PROJECT_ID/urban-hotline
+          env:
+            - name: USE_GPU
+              value: "0"
+          resources:
+            limits:
+              memory: 4Gi
+              cpu: "2"

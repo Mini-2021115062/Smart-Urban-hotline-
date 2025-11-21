@@ -1,0 +1,15 @@
+name: smart_urban_hotline
+version: "1.0"
+description: ADK agent manifest for Smart Urban Hotline
+entrypoint: /urban_hotline
+tools:
+  - name: geo_agent
+    description: Resolve location to coordinates
+  - name: flood_agent
+    description: Check flood risk
+  - name: pollution_agent
+    description: Get AQI
+  - name: traffic_agent
+    description: Get traffic status
+  - name: safety_agent
+    description: Generate safety advice using LLM
