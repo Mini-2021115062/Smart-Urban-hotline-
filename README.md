@@ -30,6 +30,3 @@ The `agents/` folder contains modular agent code. `sample_dataset/` contains sma
    ```
    curl "https://YOUR_SERVICE_URL/urban_hotline?location=Velachery"
    ```
-
-## License
-MIT
